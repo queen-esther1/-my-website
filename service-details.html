@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+  <title>Uniqeme - Personal Portfolio HTML Bootstrap Template</title>
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- go to top -->
+  <button class="go-to-top">
+    <i class="ph-bold ph-arrow-up"></i>
+  </button>
+
+  <!-- loader -->
+  <div class="loader-wrapper">
+    <span class="loader"></span>
+  </div>
+  <!-- Header -->
+  <nav class="navbar-top">
+    <div class="navbar-wrapper d-flex align-items-center justify-content-between">
+      <!-- <a href="index.html" class="logo d-inline-flex">
+      <img src="./assets/images/logo.png" class="img-fluid" alt="" />
+    </a> -->
+      <div class="menu-wrapper">
+        <ul class="menu-list d-none d-lg-flex">
+          <li><a href="index.html" class="menu-link">Home</a></li>
+          <li><a href="about-me.html" class="menu-link">About Me</a></li>
+          <li class="submenu">
+            <button>What I Do<i class="ph ph-caret-down"></i></button>
+            <ul class="submenu-dropdown">
+              <li><a class="menu-link dropdown-item" href="services.html">Services</a></li>
+              <li><a class="menu-link dropdown-item" href="service-details.html">Service Details</a></li>
+            </ul>
+          </li>
+          <li class="submenu">
+            <button>Portfolio <i class="ph ph-caret-down"></i></button>
+            <ul class="submenu-dropdown">
+              <li><a class="menu-link dropdown-item" href="portfolio.html">Portfolio</a></li>
+              <li><a class="menu-link dropdown-item" href="portfolio-details.html">Portfolio Details</a></li>
+            </ul>
+          </li>
+          <li class="submenu">
+            <button>Insight <i class="ph ph-caret-down"></i></button>
+            <ul class="submenu-dropdown">
+              <li><a class="menu-link dropdown-item" href="blogs.html">Blog</a></li>
+              <li><a class="menu-link dropdown-item" href="blog-details.html">Blog Details</a></li>
+            </ul>
+          </li>
+          <li><a href="contact-me.html" class="menu-link">Contact Me</a></li>
+        </ul>
+      </div>
+      <button class="d-lg-none menu-toggle-btn fs-3 f-center bg-transparent"><i class="ph ph-list"></i></button>
+    </div>
+    <div class="mobile-menu d-lg-none">
+      <div class="d-flex justify-content-between align-items-center gap-2 mb-4 d-lg-none">
+        <img src="./assets/images/logo.png" alt="" />
+        <button class="menu-close-btn bg-transparent f-center fs-4"><i class="ph ph-x"></i></button>
+      </div>
+      <ul class="menu-list" id="mobile-menu">
+        <li><a href="index.html" class="menu-link active">Home</a></li>
+        <li><a href="about-me.html" class="menu-link">About Me</a></li>
+        <li class="submenu">
+          <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#mservice">Service <i
+              class="ph ph-caret-up"></i></button>
+          <div id="mservice" class="collapse" data-bs-parent="#mobile-menu">
+            <ul class="submenu-dropdown">
+              <li><a href="services.html">Services</a></li>
+              <li><a href="service-details.html">Service Details</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="submenu">
+          <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#mport">Portfolio <i
+              class="ph ph-caret-up"></i></button>
+          <div id="mport" class="collapse" data-bs-parent="#mobile-menu">
+            <ul class="submenu-dropdown">
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="portfolio-details.html">Portfolio Details</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="submenu">
+          <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#mblog">Blog <i
+              class="ph ph-caret-up"></i></button>
+          <div id="mblog" class="collapse" data-bs-parent="#mobile-menu">
+            <ul class="submenu-dropdown">
+              <li><a href="blogs.html">Blog</a></li>
+              <li><a href="blog-details.html">Blog Details</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="contact-me.html" class="menu-link">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- hero  -->
+    <section class="service-details">
+      <div class="container pt-120 pb-120">
+        <div class="top-title">
+          <p class="fade_up_anim mb-3"><span class="text-primary fw-semibold">Services</span> / Branding Solutions</p>
+          <h2 data-delay=".2" class="title-anim display-3 fw-bolder">Branding Solutions</h2>
+        </div>
+      </div>
+      <div class="container-big">
+        <div class="mb-60">
+          <img src="./assets/images/service-details-1.png" class="w-100 img-fluid" alt="" />
+        </div>
+        <div class="container">
+          <h2 class="display-4 mb-30 fw-bold">Find the best solution for every stage of your business branding
+            development</h2>
+          <div class="mb-60">
+            <p class="mb-3 mb-xl-4">
+              Understanding that branding is more than just a logo, Queen Esther Tech offers comprehensive solutions
+              that captures the true essence of your business, our holistic approach to branding ensures that you
+              receive tailored solutions for every stage of your business’s development. Whether you're a startup
+              looking to establish your identity or an established company seeking a brand refresh, we specialize in
+              creating cohesive branding strategies that not only define who you are but also attract and retain
+              customers.
+            </p>
+            <p>
+              Also dedicated and passionate about helping you build a strong, consistent brand that connects with your
+              audience and drives growth. Let us partner with you to unlock the full potential of your brand.
+
+
+            </p>
+          </div>
+          <h2 class="display-4 mb-30 fw-bold">We provide useful services</h2>
+          <div class="mb-60">
+            <p>
+              At Queen Esther Tech, where innovation meets excellence. We specialize in delivering
+              cutting-edge technology solutions designed to meet the diverse needs of modern businesses. With a
+              commitment to quality and a focus on results, our services empower organizations to enhance their digital
+              presence and achieve their strategic goals. Our range of services is designed to empower businesses,
+              enhance productivity, and drive growth in today’s digital landscape.
+            </p>
+          </div>
+          <ul class="list mb-60">
+            <li>Expertise and professionalism</li>
+            <li>Flexibility and adaptability</li>
+            <li>Cost-effectiveness</li>
+            <li>Customer support</li>
+            <li>Timely delivery</li>
+          </ul>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <img src="./assets/images/service-details-2.png" alt="" />
+          </div>
+          <div class="col-md-6">
+            <img src="./assets/images/service-details-3.png" alt="" />
+          </div>
+        </div>
+        <div class="container pt-120 pb-120">
+          <h2 class="mb-3 mb-xl-4">Your dream website in just few steps</h2>
+          <p class="mb-3 mb-xl-4">
+            At Queen Esther Tech, we believe that creating your dream website should be a seamless and enjoyable
+            process.
+            Our step-by-step approach ensures that you achieve a stunning online presence without the hassle.
+          </p>
+          <div class="row gy-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="detail-box">
+                <h2 class="mb-3 mb-xl-4">I Concept</h2>
+                <p class="mb-3 mb-xl-4">At the heart of every successful brand lies a well-crafted brand strategy. Our
+                  team works closely with you to define your brand’s mission, vision, and core values, ensuring that
+                  these elements align with your business objectives.</p>
+                <ul class="list">
+                  <li>Reviewing any existing branding.</li>
+                  <li> identifying target audience and conducting competitors research.</li>
+                  <li>Developing a strategy for your brand.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="detail-box">
+                <h2 class="mb-3 mb-xl-4">II Design</h2>
+                <p class="mb-3 mb-xl-4">Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit,</p>
+                <ul class="list">
+                  <li>Developing wireframes and mockup</li>
+                  <li>Choosing typography, color palettes,</li>
+                  <li>Refining the design</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="detail-box">
+                <h2 class="mb-3 mb-xl-4">III Webflow</h2>
+                <p class="mb-3 mb-xl-4">With Webflow, designing your dream website is streamlined, efficient, and above
+                  all, customizable to suit your unique needs,we go through the process to ensure a successful launch:
+                </p>
+                <ul class="list">
+                  <li>Testing the website thoroughly launch</li>
+                  <li>Choosing typography, color palettes,</li>
+                  <li>Refining the design</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- global clients -->
+    <section class="global-client">
+      <div class="container-black">
+        <h3 class="text-center title-anim text-white mb-4 mb-xl-5 pb-1 pb-xl-3">I've 1100+ Global Clients &amp; lot's of
+          Project Complete</h3>
+        <div class="brand-container">
+          <div class="container">
+            <div class="swiper brand-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="brand-logo">
+                    <img src="./assets/images/brand-1.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-logo">
+                    <img src="./assets/images/brand-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-logo">
+                    <img src="./assets/images/brand-3.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-logo">
+                    <img src="./assets/images/brand-4.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-logo">
+                    <img src="./assets/images/brand-5.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-logo">
+                    <img src="./assets/images/brand-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-logo">
+                    <img src="./assets/images/brand-3.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- faq section -->
+    <section class="popular-question pb-120 pt-120">
+      <div class="container">
+        <h2 class="title-anim text-center display-3 fw-bolder mb-60">Popular common questions and your answer</h2>
+        <div id="faq">
+          <div class="faq-item">
+            <div data-bs-toggle="collapse" data-bs-target="#faq1" class="top">
+              <div class="d-flex align-items-center gap-4">
+                <h5>001</h5>
+                <h5 class="text-capitalize">How can i help you?</h5>
+              </div>
+              <button class="bg-transparent f-center fs-5">
+                <i class="ph ph-arrow-up-right"></i>
+              </button>
+            </div>
+            <div id="faq1" data-bs-parent="#faq" class="content collapse show">
+              <p>
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui voluptatem sequi nesciunt. quisquam est, qui dolorem ipsum quia dolor sit amet,
+                consectetur, adipisci velit, sed quia non numquam eius tempora incidunt ut labore
+                et dolore magnam aliquam quaerat anything embarrassing hidden in the middle of text.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div data-bs-toggle="collapse" data-bs-target="#faq2" class="top collapsed">
+              <div class="d-flex align-items-center gap-4">
+                <h5>002</h5>
+                <h5 class="text-capitalize">How can i help you?</h5>
+              </div>
+              <button class="bg-transparent f-center fs-5">
+                <i class="ph ph-arrow-up-right"></i>
+              </button>
+            </div>
+            <div id="faq2" data-bs-parent="#faq" class="content collapse">
+              <p>
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui voluptatem sequi nesciunt. quisquam est, qui dolorem ipsum quia dolor sit amet,
+                consectetur, adipisci velit, sed quia non numquam eius tempora incidunt ut labore
+                et dolore magnam aliquam quaerat anything embarrassing hidden in the middle of text.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div data-bs-toggle="collapse" data-bs-target="#faq3" class="top collapsed">
+              <div class="d-flex align-items-center gap-4">
+                <h5>003</h5>
+                <h5 class="text-capitalize">How can i help you?</h5>
+              </div>
+              <button class="bg-transparent f-center fs-5">
+                <i class="ph ph-arrow-up-right"></i>
+              </button>
+            </div>
+            <div id="faq3" data-bs-parent="#faq" class="content collapse">
+              <p>
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui voluptatem sequi nesciunt. quisquam est, qui dolorem ipsum quia dolor sit amet,
+                consectetur, adipisci velit, sed quia non numquam eius tempora incidunt ut labore
+                et dolore magnam aliquam quaerat anything embarrassing hidden in the middle of text.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div data-bs-toggle="collapse" data-bs-target="#faq4" class="top collapsed">
+              <div class="d-flex align-items-center gap-4">
+                <h5>004</h5>
+                <h5 class="text-capitalize">How can i help you?</h5>
+              </div>
+              <button class="bg-transparent f-center fs-5">
+                <i class="ph ph-arrow-up-right"></i>
+              </button>
+            </div>
+            <div id="faq4" data-bs-parent="#faq" class="content collapse">
+              <p>
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui voluptatem sequi nesciunt. quisquam est, qui dolorem ipsum quia dolor sit amet,
+                consectetur, adipisci velit, sed quia non numquam eius tempora incidunt ut labore
+                et dolore magnam aliquam quaerat anything embarrassing hidden in the middle of text.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div data-bs-toggle="collapse" data-bs-target="#faq5" class="top collapsed">
+              <div class="d-flex align-items-center gap-4">
+                <h5>005</h5>
+                <h5 class="text-capitalize">How can i help you?</h5>
+              </div>
+              <button class="bg-transparent f-center fs-5">
+                <i class="ph ph-arrow-up-right"></i>
+              </button>
+            </div>
+            <div id="faq5" data-bs-parent="#faq" class="content collapse">
+              <p>
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui voluptatem sequi nesciunt. quisquam est, qui dolorem ipsum quia dolor sit amet,
+                consectetur, adipisci velit, sed quia non numquam eius tempora incidunt ut labore
+                et dolore magnam aliquam quaerat anything embarrassing hidden in the middle of text.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer pt-120">
+      <div class="container">
+        <h2 class="title-anim display-3 text-center text-white fw-bolder mb-30">
+          Reach out and <br />
+          let's create something great together
+        </h2>
+        <a class="fade_up_anim h4 fw-semibold mx-auto d-block mb-60 text-white text-center"
+          href="mailto:markcontact@example.com">contact@example.com</a>
+        <div class="pb-120 d-flex justify-content-center">
+          <a href="contact-me.html" class="connect">
+            <span class="fs-4 fw-semibold z-3">Connect Me</span>
+            <i class="ph ph-arrow-up-right-bold fs-5 z-3"></i>
+            <div class="ball"></div>
+          </a>
+        </div>
+        <div class="row">
+          <div class="col-md-6 px-md-0">
+            <div class="footer-box border-start-0 border-bottom-0 apear-down">
+              <p class="text-uppercase">phone</p>
+              <a href="tel:+4407557623301">+44 07557 623 301</a>
+            </div>
+            <div class="footer-box border-start-0 border-bottom-0 apear-down">
+              <p class="text-uppercase">email</p>
+              <a href="mailto:mail@example.com">mail@example.com</a>
+            </div>
+          </div>
+          <div class="col-md-6 px-md-0">
+            <div class="footer-box border-start-0 border-end-0 h-100 border-bottom-0 apear-down">
+              <div class="d-flex flex-column justify-content-between h-100">
+                <p class="text-uppercase">Social</p>
+                <div>
+                  <a class="d-flex align-items-center gap-1 justify-content-end" href="#">Twitter <i
+                      class="ph ph-arrow-up-right"></i></a>
+                  <a class="d-flex align-items-center gap-1 justify-content-end" href="#">Facebook <i
+                      class="ph ph-arrow-up-right"></i></a>
+                  <a class="d-flex align-items-center gap-1 justify-content-end" href="#">Behance <i
+                      class="ph ph-arrow-up-right"></i></a>
+                  <a class="d-flex align-items-center gap-1 justify-content-end" href="#">Linkedin <i
+                      class="ph ph-arrow-up-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright d-flex justify-content-center">
+          <p class="text-center">© <span id="year"></span> All You Can Design. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script defer src="assets/js/app.js"></script>
+</body>
+
+</html>
